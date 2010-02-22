@@ -1,0 +1,6 @@
+inherit java gnustep
+
+
+SRC_URI="http://www.gnustep.it/jigs/Download/jigs-${PV}.tar.gz"
+
+export JIGS_VM_LIBS="/usr/lib/jamvm/libjvm.dll.a"
